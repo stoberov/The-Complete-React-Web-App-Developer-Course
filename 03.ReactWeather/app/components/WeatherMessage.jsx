@@ -1,20 +1,13 @@
 var React = require('react');
 
-// var WeatherMessage = React.createClass({
-//     render: function () {
-//         var { temp, location } = this.props;
-
-//         return (
-//             <h3>It is {temp} in {location}.</h3>
-//         );
-//     }
-// });
-
-var WeatherMessage = ({temp, location}) => {
+var WeatherMessage = ({ temp, location }) => {
     // var { temp, location } = props;
 
+    // Capitalize first letter
+    location = location.charAt(0).toUpperCase() + location.slice(1);
+
     return (
-        <h3 className="text-center">It is {temp} in {location}.</h3>
+        <h3 className="text-center">It is {temp}° in {location}.</h3>
     );
 };
 
