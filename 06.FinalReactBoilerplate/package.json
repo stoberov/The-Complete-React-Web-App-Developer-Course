@@ -1,7 +1,7 @@
 {
   "name": "boilerplate",
   "version": "1.0.0",
-  "description": "Advanced React Boilerplate",
+  "description": "Final React Boilerplate",
   "main": "index.js",
   "scripts": {
     "test": "karma start",
