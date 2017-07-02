@@ -1,15 +1,15 @@
-## Advanced Boilerplate React App
+## Todo App
 
 Features included:
 - React
 - Express server
-- Axios - a promise-based HTTP client
 - Foundation - a great front-end framework
 - Webpack - fully configured to work with Babel, jQuery, SASS, and more. 
-
+- Over 20 unit tests
+- Persisting todos in local storage
 
 To run the app:
 ```bash
-heroku -w
+webpack -w
 node server.js
 ```

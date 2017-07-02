@@ -10,6 +10,6 @@ Features included:
 
 To run the app:
 ```bash
-heroku -w
+webpack -w
 node server.js
 ```
