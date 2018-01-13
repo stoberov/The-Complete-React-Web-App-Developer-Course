@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "baseUrl": ".",
+        "paths": {
+            "actions": ["app/actions/actions.jsx"],
+            "reducers": ["app/reducers/reducers.jsx"]
+        }
+    }
+}
